@@ -1,0 +1,58 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding: 40px;
+  background-color: rgb(255 255 255);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 700ms;
+  border-radius: 6px;
+}
+@media (min-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+.button-shift{
+  display: flex;
+  margin-top: 20px;
+  gap: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: rgb(167 139 250);
+  text-align: center;
+ 
+}
+.btn{
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn:hover{
+    color: rgb(133, 88, 238);
+}
+.suprise-btn{
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+    background-color: rgb(147, 118, 233);
+    cursor: pointer;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+.suprise-btn:hover{
+    background-color: rgb(110, 68, 209);
+}
